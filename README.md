@@ -14,7 +14,7 @@ Execute: ./exec
 
  - Each unit test is handled by its own process (prevents the entire test suite to crash when one process terminates abnormally) and the following is captured:
     - termination status of the test case (i.e did it terminate abnormally?)
-    - If it terminated abnormally (i.e segfault) this information is caught and displayed to stdout   
+        - If so, (i.e segfault) this information is caught and displayed to stdout   
     - test ID (starting from 0)
     - test result (i.e pass or fail)
  - Test that hang
