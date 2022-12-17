@@ -10,7 +10,7 @@ export path: export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:.
 
 Execute: ./exec
 
-# What makes it so robust?
+# What makes it robust?
 
  - Each unit test is handled by its own process (prevents the entire test suite to crash when one process terminates abnormally) and the following is captured:
     - termination status of the test case (i.e did it terminate abnormally?)
